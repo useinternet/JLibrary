@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="라이브러리">
+      <UniqueIdentifier>{a1d31f36-f39e-4d5c-b148-f3ada66e530d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container">
+      <UniqueIdentifier>{48545e7b-1814-4e2f-a3e0-911fa54bc2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Trace">
+      <UniqueIdentifier>{3865413b-b0cc-42fd-be26-ed8404f42155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Algorithm">
+      <UniqueIdentifier>{7b136da2-1c32-4ee4-9d26-8666f979cdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JArray">
+      <UniqueIdentifier>{76472998-ca7c-4d2b-bc79-b1256df30f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JList">
+      <UniqueIdentifier>{3019f047-f29c-4474-863e-a7a79baf8120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\JMath">
+      <UniqueIdentifier>{2d4e662f-ea0f-4a1c-b7c7-8dbb1a0c58eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JQueue">
+      <UniqueIdentifier>{9b093f88-ef02-43f1-bf5a-5022004226d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JStatck">
+      <UniqueIdentifier>{49d30304-87da-4edc-b87d-93409ce4f883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JPriority_Queue">
+      <UniqueIdentifier>{ca8c4606-d69f-4ede-b7c9-9feb69ceeb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Utility">
+      <UniqueIdentifier>{bc723ad3-d30e-4c52-bc43-a2dcd927f708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\AlgorithmFunctor">
+      <UniqueIdentifier>{cdea6431-dd73-47c7-a003-1d73c0034942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JMap">
+      <UniqueIdentifier>{9cda9ba8-321c-45db-a22f-1f399b9cdca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\Container\JHash_Map">
+      <UniqueIdentifier>{8249308a-fb60-4a52-b0e3-a6dd5ec7939f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\JString">
+      <UniqueIdentifier>{fde2fbaa-f8f1-40fe-81af-d4a975eb72d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JMath.cpp">
+      <Filter>라이브러리\JMath</Filter>
+    </ClCompile>
+    <ClCompile Include="J3DVector.cpp">
+      <Filter>라이브러리\JMath</Filter>
+    </ClCompile>
+    <ClCompile Include="JPlane.cpp">
+      <Filter>라이브러리\JMath</Filter>
+    </ClCompile>
+    <ClCompile Include="JString.cpp">
+      <Filter>라이브러리\JString</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JTrace.h">
+      <Filter>라이브러리\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="JAlgorithm.h">
+      <Filter>라이브러리\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="JMath.h">
+      <Filter>라이브러리\JMath</Filter>
+    </ClInclude>
+    <ClInclude Include="J3DVector.h">
+      <Filter>라이브러리\JMath</Filter>
+    </ClInclude>
+    <ClInclude Include="JArray.h">
+      <Filter>라이브러리\Container\JArray</Filter>
+    </ClInclude>
+    <ClInclude Include="JList.h">
+      <Filter>라이브러리\Container\JList</Filter>
+    </ClInclude>
+    <ClInclude Include="JQueue.h">
+      <Filter>라이브러리\Container\JQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="JStack.h">
+      <Filter>라이브러리\Container\JStatck</Filter>
+    </ClInclude>
+    <ClInclude Include="JPlane.h">
+      <Filter>라이브러리\JMath</Filter>
+    </ClInclude>
+    <ClInclude Include="JPriority_Queue.h">
+      <Filter>라이브러리\Container\JPriority_Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="JPair.h">
+      <Filter>라이브러리\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmFunctor.h">
+      <Filter>라이브러리\AlgorithmFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="JHash_Map.h">
+      <Filter>라이브러리\Container\JHash_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="JString.h">
+      <Filter>라이브러리\JString</Filter>
+    </ClInclude>
+    <ClInclude Include="JMap.h">
+      <Filter>라이브러리\Container\JMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="JArray_ReadMe.txt">
+      <Filter>라이브러리\Container\JArray</Filter>
+    </Text>
+    <Text Include="JList_ReadMe.txt">
+      <Filter>라이브러리\Container\JList</Filter>
+    </Text>
+    <Text Include="JQueue_ReadMe.txt">
+      <Filter>라이브러리\Container\JQueue</Filter>
+    </Text>
+    <Text Include="JStack_ReadMe.txt">
+      <Filter>라이브러리\Container\JStatck</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
