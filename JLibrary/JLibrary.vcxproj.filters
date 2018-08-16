@@ -67,6 +67,9 @@
     <ClCompile Include="JString.cpp">
       <Filter>라이브러리\JString</Filter>
     </ClCompile>
+    <ClCompile Include="JTimer.cpp">
+      <Filter>라이브러리\Utility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JTrace.h">
@@ -113,6 +116,9 @@
     </ClInclude>
     <ClInclude Include="JMap.h">
       <Filter>라이브러리\Container\JMap</Filter>
+    </ClInclude>
+    <ClInclude Include="JTimer.h">
+      <Filter>라이브러리\Utility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

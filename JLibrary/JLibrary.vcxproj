@@ -119,6 +119,7 @@
     <ClCompile Include="JMath.cpp" />
     <ClCompile Include="JPlane.cpp" />
     <ClCompile Include="JString.cpp" />
+    <ClCompile Include="JTimer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +136,7 @@
     <ClInclude Include="JQueue.h" />
     <ClInclude Include="JStack.h" />
     <ClInclude Include="JString.h" />
+    <ClInclude Include="JTimer.h" />
     <ClInclude Include="JTrace.h" />
     <ClInclude Include="JMap.h" />
   </ItemGroup>
